@@ -1,0 +1,14 @@
+{
+  "name": "lab3-eth-infura",
+  "version": "1.0.0",
+  "description": "Lab 3: Interacting with Sepolia Testnet",
+  "main": "index.js",
+  "dependencies": {
+    "ethers": "^6.8.1",
+    "dotenv": "^16.0.3"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "MIT"
+}

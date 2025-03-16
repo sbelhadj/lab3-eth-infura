@@ -1,5 +1,25 @@
 # 🚀 Lab 3: Interacting with Sepolia Public Nodes
 
+📦 lab3-eth-infura
+ ├── 📂 scripts
+ │    ├── checkBalance.js       # Query ETH balance
+ │    ├── sendEth.js            # Send ETH transaction
+ │    ├── checkGasPrice.js      # Query Sepolia gas price
+ │    ├── checkNonce.js         # Get transaction count (nonce)
+ │    ├── interactContract.js   # Read data from a smart contract
+ │    ├── .env.example          # Template for private key storage
+ │
+ ├── 📂 docs
+ │    ├── LAB3_SETUP.md         # Step-by-step guide for students
+ │    ├── COMMANDS.md           # Quick reference CLI commands
+ │
+ ├── 📜 README.md               # Overview of the lab
+ ├── 📜 install.sh              # Auto-installation script for dependencies
+ ├── 📜 .gitignore              # Ignore unnecessary files
+ ├── 📜 package.json            # Node.js dependencies
+ ├── 📜 LICENSE                 # Open-source license
+
+
 ## 🎯 Overview
 This lab teaches students how to interact with Ethereum's **Sepolia Testnet** using **public RPC nodes**, **CLI commands**, **JavaScript (ethers.js)**, and **Etherscan API**.
 

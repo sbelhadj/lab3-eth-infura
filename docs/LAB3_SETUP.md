@@ -14,34 +14,36 @@ This lab teaches students how to interact with Ethereum's **Sepolia Testnet** us
 ---
 
 ## 🛠 **1️⃣ Prerequisites**
-### **🔹 Install Required Packages**
+### ** Install Required Packages**
 Run the following commands in the terminal:
-
+```bash
 sudo apt update && sudo apt install -y curl jq bc
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt install -y nodejs
 npm install -g web3 ethers dotenv
+```
 
 ## Verify installation:
-
+```bash
 node -v
 npm -v
 jq --version
-
+```
 
 
 ## Configure Metamask for Sepolia
-Open Metamask → Go to Settings > Networks > Add Network
-Enter the following details:
-Network Name: Sepolia
-RPC URL: https://sepolia.infura.io/v3/YOUR_PROJECT_ID
-Chain ID: 11155111
-Currency: ETH
-Explorer: https://sepolia.etherscan.io/
-Save and switch to Sepolia network
-🔹 Get Sepolia Test ETH
-🔗 Alchemy Sepolia Faucet
-🔗 Infura Sepolia Faucet
+  Open Metamask → Go to Settings > Networks > Add Network
+    Enter the following details:
+      Network Name: Sepolia
+      RPC URL: https://sepolia.infura.io/v3/YOUR_PROJECT_ID
+      Chain ID: 11155111
+      Currency: ETH
+      Explorer: https://sepolia.etherscan.io/
+    Save and switch to Sepolia network
+    
+## Get Sepolia Test ETH
+🔗 Alchemy Sepolia Faucet (look in google)
+🔗 Infura Sepolia Faucet (look in google)
 
 ## Install Dependencies
 ./install.sh

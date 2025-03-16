@@ -1,5 +1,6 @@
 # 🚀 Lab 3: Interacting with Sepolia Public Nodes
 
+```plaintext
 📦 lab3-eth-infura
  ├── 📂 scripts
  │    ├── checkBalance.js       # Query ETH balance
@@ -18,6 +19,7 @@
  ├── 📜 .gitignore              # Ignore unnecessary files
  ├── 📜 package.json            # Node.js dependencies
  ├── 📜 LICENSE                 # Open-source license
+
 
 
 ## 🎯 Overview

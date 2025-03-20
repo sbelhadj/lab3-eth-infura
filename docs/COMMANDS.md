@@ -1,4 +1,4 @@
-# 🛠 **Quick Reference: CLI Commands for Sepolia**
+# 🛠 Quick Reference: CLI Commands for Sepolia
 
 ## Get Latest Block Number
 ```bash

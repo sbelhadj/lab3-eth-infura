@@ -1,20 +1,20 @@
 # 📖 Lab 3 Setup Guide: Interacting with Sepolia Testnet
 
-## 🎯 **Objective**
-This lab teaches students how to interact with Ethereum's **Sepolia Testnet** using:
-- **CLI commands (cURL + jq + bc)**  
-- **JavaScript scripting with ethers.js**  
-- **Etherscan API**  
-- **Smart contract interactions**  
+## 🎯 Objective
+This lab teaches students how to interact with Ethereum's Sepolia Testnetusing:
+- CLI commands (cURL + jq + bc) 
+- JavaScript scripting with ethers.js 
+- Etherscan API 
+- Smart contract interactions 
 
-✅ **No need to run a full Ethereum node!**  
-✅ **Fast & real blockchain interactions**  
-✅ **Works from any Ubuntu machine**  
+✅ No need to run a full Ethereum node! 
+✅ Fast & real blockchain interactions 
+✅ Works from any Ubuntu machine 
 
 ---
 
-## 🛠 **1️⃣ Prerequisites**
-### ** Install Required Packages**
+## 🛠 1️⃣ Prerequisites
+### Install Required Packages
 Run the following commands in the terminal:
 ```bash
 sudo apt update && sudo apt install -y curl jq bc
@@ -30,6 +30,15 @@ npm -v
 jq --version
 ```
 
+## Install Metamask Wallet Browser extension
+Go to https://metamask.io/download
+Download and install 
+Go through the configuration to create a wallet accounts
+
+## Create Infura Account
+Got to https://developer.metamask.io/login
+Sign in with you Metamsk
+Create your API Key : YOUR_PROJECT_ID
 
 ## Configure Metamask for Sepolia
   Open Metamask → Go to Settings > Networks > Add Network
@@ -42,10 +51,13 @@ jq --version
     Save and switch to Sepolia network
     
 ## Get Sepolia Test ETH
+🔗 Google cloud Faucet https://cloud.google.com/application/web3/faucet/ethereum/sepolia
+🔗 https://sepolia-faucet.pk910.de/
 🔗 Alchemy Sepolia Faucet (look in google)
 🔗 Infura Sepolia Faucet (look in google)
 
 ## Install Dependencies
+Optional
 ./install.sh
 
 

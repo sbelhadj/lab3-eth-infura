@@ -58,8 +58,20 @@ Create your API Key : YOUR_PROJECT_ID
 
 ## Install Dependencies
 Optional
+```bash
 ./install.sh
+```
 
+## Configure your .env file
+```bash
+cd scripts
+mv .env.example .env
+```
+edit .env file accordingly
+```plaintext
+PRIVATE_KEY=your_private_key_here
+INFURA_PROJECT_ID=your_infura_project_id
+```
 
 ## Running CLI Commands
 #### Check ETH balance
